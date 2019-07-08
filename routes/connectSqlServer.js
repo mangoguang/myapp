@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var sqlserverdb = require('../public/javascripts/sqlserverdb');
+var sqlserverdb = require('../public/js/sqlserverdb');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
